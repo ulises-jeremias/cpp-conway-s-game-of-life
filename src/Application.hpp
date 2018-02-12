@@ -23,12 +23,14 @@ enum class State: uint8_t
         Paused
 };
 
-struct CellSave {
+struct CellSave
+{
         unsigned x, y;
         Cell cell;
 };
 
-struct Save {
+struct Save
+{
         std::vector<CellSave> cells = std::vector<CellSave>();
 };
 
