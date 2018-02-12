@@ -6,7 +6,7 @@ set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3")
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 
-set(SOURCE_FILES src/Main.cpp src/Application.h src/Application.cpp src/QuadBoard.h src/QuadBoard.cpp src/Random.h src/Random.cpp src/Config.h)
+set(SOURCE_FILES src/Main.cpp src/Application.hpp src/Application.cpp src/QuadBoard.hpp src/QuadBoard.cpp src/Random.hpp src/Random.cpp src/Config.h)
 set(RESOURCE_FILES font/arial.ttf)
 
 find_package(OpenGL REQUIRED)
