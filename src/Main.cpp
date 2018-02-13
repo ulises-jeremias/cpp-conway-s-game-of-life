@@ -3,6 +3,8 @@
 #include "Application.h"
 #include "Config.h"
 
+using namespace std;
+
 /**
  * Rules:
  * The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells,
@@ -21,20 +23,20 @@ int main()
         Config config;
 
         char option;
-        std::cout << "Would you like to use default config? [Y/N]: ";
-        std::cin >> option;
-        option = std::toupper(option);
+        cout << "Would you like to use default config? [Y/N]: ";
+        cin >> option;
+        option = toupper(option);
 
         if (option == 'N')
         {
-                std::cout << "Enter window width: ";
-                std::cin >> config.windowWidth;
+                cout << "Enter window width: ";
+                cin >> config.windowWidth;
 
-                std::cout << "Enter window height: ";
-                std::cin >> config.windowHeight;
+                cout << "Enter window height: ";
+                cin >> config.windowHeight;
 
-                std::cout << "Enter cell size: ";
-                std::cin >> config.quadSize;
+                cout << "Enter cell size: ";
+                cin >> config.quadSize;
 
                 //Make it so that the cells fit in the window
                 config.windowWidth -= config.windowWidth   % config.quadSize;
