@@ -7,8 +7,8 @@
 #include <chrono>
 #include <thread>
 
-#include "QuadBoard.h"
-#include "Config.h"
+#include "QuadBoard.hpp"
+#include "Config.hpp"
 
 enum class Cell: uint8_t
 {

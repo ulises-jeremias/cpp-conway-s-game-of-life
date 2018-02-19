@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 
-#include "Config.h"
+#include "Config.hpp"
 
 class QuadBoard
 {

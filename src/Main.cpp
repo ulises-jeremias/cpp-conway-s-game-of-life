@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Application.h"
-#include "Config.h"
+#include "Application.hpp"
+#include "Config.hpp"
 
 using namespace std;
 

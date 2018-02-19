@@ -2,7 +2,7 @@
 #include <random>
 #include <ctime>
 
-#include "Application.h"
+#include "Application.hpp"
 
 namespace
 {

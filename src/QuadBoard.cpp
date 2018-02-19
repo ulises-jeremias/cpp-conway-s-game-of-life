@@ -1,4 +1,4 @@
-#include "QuadBoard.h"
+#include "QuadBoard.hpp"
 
 QuadBoard::QuadBoard(const Config& config)
         :   CONFIG  (config)
